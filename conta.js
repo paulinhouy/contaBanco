@@ -4,6 +4,14 @@ function Conta(agencia,conta,saldo){
     this._saldo = saldo
 }
 
-Conta.prototype.sacar(){
-    
+Conta.prototype.sacar= () =>{
+
+}
+
+Conta.prototype.depositar = () =>{
+
+}
+
+Conta.prototype.verSaldo = () =>{
+
 }
