@@ -16,6 +16,8 @@ this.saldo -= valor
 }
 
 Conta.prototype.depositar = (valor) =>{
+    this.verSaldo()
+    this.saldo += valor
 
 }
 
