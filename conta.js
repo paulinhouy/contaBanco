@@ -19,8 +19,12 @@ Conta.prototype.depositar = (valor) =>{
     this.verSaldo()
     this.saldo += valor;
 
+
 }
 
 Conta.prototype.verSaldo = () =>{
 
 }
+const conta1 = new Conta(11,22,10)
+conta1.depositar(10)
+console.log(conta1)
