@@ -4,7 +4,7 @@ function Conta(agencia,conta,saldo){
     this._saldo = saldo
 }
 
-Conta.prototype.sacar= (valor) =>{
+Conta.prototype.sacar= fuunction (valor){
 if (this.saldo <= valor){
     console.log('saldo insuficiente')
 this.verSaldo()
@@ -15,14 +15,14 @@ this.verSaldo()
 this.saldo -= valor
 }
 
-Conta.prototype.depositar = (valor) =>{
+Conta.prototype.depositar = function (valor){
     this.verSaldo()
     this.saldo += valor;
 
 
 }
 
-Conta.prototype.verSaldo = () =>{
+Conta.prototype.verSaldo = () {
     return saldo
 
 }
