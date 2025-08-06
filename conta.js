@@ -23,6 +23,7 @@ Conta.prototype.depositar = (valor) =>{
 }
 
 Conta.prototype.verSaldo = () =>{
+    return saldo
 
 }
 const conta1 = new Conta(11,22,10)
