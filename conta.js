@@ -12,18 +12,18 @@ return;
 
 }
 this.verSaldo()
-this.saldo -= valor
+this._saldo -= valor
 }
 
 Conta.prototype.depositar = function (valor){
     this.verSaldo()
-    this.saldo += valor;
+    this._saldo += valor;
 
 
 }
 
 Conta.prototype.verSaldo = function() {
-    return saldo
+    
 
 }
 const conta1 = new Conta(11,22,10)
